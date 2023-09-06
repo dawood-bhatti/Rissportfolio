@@ -1,0 +1,1171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rammetto+One&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/nectar');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: nectar;
+    src: url(../fonts/Nectar\ Regular.otf);
+}
+
+body {
+    background-color: #111111 !important
+}
+
+#cont-one {
+    padding: 0px 12px 0px 12px;
+
+}
+
+.nav-link {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    /* padding: 20px 30px; */
+    font-weight: 400;
+    line-height: 51px;
+}
+
+.nav-item {
+    padding: 0px 30px;
+}
+
+.nav-link:hover {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    /* padding: 20px 30px; */
+    font-weight: 400;
+    line-height: 51px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+.my-work-items{
+    margin-bottom: 24px;
+}
+.navbar-nav {
+    border-radius: 46px;
+    background: #222;
+    padding: 0px 50px;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #FFF;
+}
+.button {
+    border-radius: 200px;
+    background: #222;
+    padding: 20px 40px 20px 49px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    border: 0px;
+    /* height: 58px; */
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button img {
+    height: 50%;
+    padding-left: 145px;
+}
+
+.card {
+    border-radius: 100px;
+    background: #20B9FB;
+    padding: 112px 60px;
+}
+
+#videoPlayer {
+    border-radius: 100px;
+    background: #000;
+}
+
+.card h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Nectar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-two {
+    border-radius: 100px;
+    background: #222;
+    padding: 60px 60px 77px 60px;
+    /* height: 55%; */
+}
+
+.card-two h1 {
+    color: #FFF;
+    font-family: Nectar;
+    font-size: 62px;
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px;
+}
+
+.card-two p {
+    color: #888;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 222.222% */
+}
+
+.button-two {
+    border-radius: 200px;
+    background: #FFF;
+    padding: 10px 15px;
+    border: 0px;
+    color: #111;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-two .para {
+   color: #FFF;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 181.818% */
+text-transform: uppercase;
+}
+
+.ser-img img {
+    height: 70%;
+}
+
+.text {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #0e6b0e;
+    text-shadow: 0 0 5px #149414,
+        0 0 15px #149414,
+        0 0 30px #149414;
+    transform-origin: bottom;
+    animation: animate 4s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+
+    70% {
+        transform: translateY(200%) scale(1);
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+    }
+}
+
+.my-services-row__right--card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #1B1B1F;
+    color: #fff;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.my-services-row__text--bottom {
+    font-size: 16px;
+    letter-spacing: 0.015em;
+    font-weight: 425;
+    color: #A5A1FF;
+    background: #471D9F;
+}
+
+.my-services-row__left--card {
+    position: relative;
+    background: #471D9F;
+    color: #A5A1FF;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    border-radius: 48px;
+}
+
+.my-services-row__text--top {
+    font-size: 16px;
+    font-weight: 625;
+    letter-spacing: 0;
+    line-height: 100%;
+    margin: 0 0 24px 0;
+    color: #aba7ff;
+    background: #471D9F;
+}
+
+.para-two {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.my-services-row__left--card .card-extension {
+    position: absolute;
+    display: none;
+    right: -100px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: #471D9F;
+    z-index: 1;
+}
+
+.my-services-row__left--card {
+    position: relative;
+    background: #471D9F;
+    color: #A5A1FF;
+    width: 98%;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    border-radius: 60px;
+}
+
+.my-services-row__left--card {
+    /* Your existing card styles here */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.card-content {
+    padding: 20px;
+    /* Adjust as needed */
+}
+
+.card-content i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #007bff;
+    /* Icon color */
+}
+
+.card-content h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Nectar;
+    font-size: 35px;
+    margin: 16px 0px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.card-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.my-services-card--text h2 {
+    color: #FFF;
+    font-family: Nectar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    /* 150% */
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url(../images/download.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background: aquamarine; */
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    padding-left: 305px;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    /* float: left; */
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.my-contact-card--text h2 {
+    font-size: 6.52vw;
+    line-height: 100%;
+    font-family: 'nectar';
+    font-weight: bold;
+}
+
+.my-btn_cta-title span {
+    font-size: 22px;
+    font-family: 'Poppins';
+}
+
+.my-input input {
+    font-size: 1rem;
+    outline: none;
+    -webkit-box-shadow: inset 0 0 0 1px #1D1C16;
+    -moz-box-shadow: inset 0 0 0 1px #1D1C16;
+    box-shadow: inset 0 0 0 1px #1D1C16;
+    border: 0;
+    color: #FFF480;
+    font-family: 'Poppins';
+    font-weight: 475;
+    -webkit-transition: -webkit-box-shadow 0.1s ease-out;
+    transition: -webkit-box-shadow 0.1s ease-out;
+    -o-transition: box-shadow 0.1s ease-out;
+    -moz-transition: box-shadow 0.1s ease-out, -moz-box-shadow 0.1s ease-out;
+    transition: box-shadow 0.1s ease-out;
+    transition: box-shadow 0.1s ease-out, -webkit-box-shadow 0.1s ease-out, -moz-box-shadow 0.1s ease-out;
+    width: 100%;
+    background: #1D1C16;
+    padding: 36px 44px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    border-radius: 48px;
+    -webkit-appearance: none;
+}
+
+.my-who-card .my-text-animation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    flex-direction: row;
+    width: 100%;
+    will-change: transform;
+    -webkit-transition: opacity 325ms ease, -webkit-transform 400ms ease;
+    transition: opacity 325ms ease, -webkit-transform 400ms ease;
+    -o-transition: opacity 325ms ease, -o-transform 400ms ease;
+    -moz-transition: opacity 325ms ease, transform 400ms ease, -moz-transform 400ms ease;
+    /* transition: opacity 325ms ease,transform 400ms ease; */
+    transition: opacity 0ms ease, transform 0ms ease, -webkit-transform 0ms ease, -moz-transform 0ms ease, -o-transform 0ms ease;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.para-three {
+    color: #CB3161;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 71px;
+    /* 197.222% */
+}
+
+/* Position the cards at the bottom of the video */
+.position-relative {
+    position: relative;
+}
+
+/* Style the card row */
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75%;
+}
+
+/* Style the cards */
+.card-three {
+    flex: 0 0 calc(50% - 10px);
+}
+
+
+
+
+.card-three {
+
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+}
+
+.card-three h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-three p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 222.222% */
+}
+
+.my-services-row__right--card {
+    border-radius: 100px;
+    background: #222;
+}
+
+.my-services-row__left--card {
+    border-radius: 100px;
+    background: #471D9F;
+}
+
+.my-services-card {
+    border-radius: 100px;
+    background: #471D9F;
+}
+
+.my-who-card__title {
+    color: #CB3161;
+    font-family: Poppins;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.heading-sm {
+    color: #FFF !important;
+    font-family: Poppins !important;
+    font-size: 30px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.my-work-card__bottom .material-icons-outlined {
+    transform: rotate(0deg);
+}
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 107px;
+    border-radius: 100vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 69px;
+    left: 90px;
+    border-radius: 100vmax;
+    background-position: center;
+}
+#circle{
+    height: 0px;
+}
+.text-two {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-family: consolas;
+	color: #fff;
+	font-size: 20px;
+	animation: textRotation 8s linear infinite;
+}
+.mobile-nav p{
+    /* color: #ff; */
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.my-contact-card--text h2 {
+    font-size: 6.52vw;
+    line-height: 100%;
+    font-family: 'nectar';
+    color: #fff;
+    font-weight: 400;
+}
+.custom-card {
+    border-radius: 100px;
+    background: rgb(17, 12, 14);
+    padding: 270px 0px;
+    /* width: 435px; */
+    margin: 24px 12px 12px 12px;
+    background: url(../images/josh.png);
+    background-color: rgba(17, 12, 14, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#bdimg-1{
+    background: url(../images/kayle.png);
+    background-color: rgba(17, 12, 14, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bdimg-2{
+    background: url(../images/nircoh.png);
+    background-color: rgba(17, 12, 14, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bdimg-3{
+    background: url(../images/michal.png);
+    background-color: rgba(17, 12, 14, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+.top-left {
+    position: absolute;
+   
+    top: 43px;
+    left: 44px;
+    color: #fff;
+}
+.top-right {
+    position: absolute;
+    top: 43px;
+    right: 44px;
+    color: #fff;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+    color: #fff;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 45px;
+    right: 50px;
+    color: #fff;
+}
+
+.my-who-card {
+
+    background: #110C0E;
+}
+@keyframes textRotation {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.text-two span {
+	position: absolute;
+	left: 50%;
+	font-size: 1.2em;
+	transform-origin: 0 100px;
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 85%;
+}
+.navbar-toggler{
+    padding-left: 0px;
+}
+@media screen and (max-width: 767px){
+    .my-view {
+        height: 100%;
+      }
+   .navbar{
+    background-color: #222;
+    border-radius: 40px;
+   }
+    .button {
+        border-radius: 200px;
+        background: #222;
+        padding: 22px 49px 16px 54px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        border: 0px;
+        /* height: 58px; */
+        font-weight: 400;
+        line-height: normal;
+    }
+    .button img {
+        height: 50%;
+        padding-left: 70px;
+    }  
+    .card {
+        padding: 30px 15px;
+    }
+    .card h1 {
+      
+        font-size: 22px;
+      
+    }
+    .card-two{
+        border-radius: 50px;
+        padding: 40px 30px 40px 30px;
+    }
+    .my-services-card{
+        border-radius: 50px;
+        padding: 30px 30px 30px 30px;
+    }
+    .button-two {
+        font-size: 12px;
+    }
+    .card-two p {
+      
+        font-size: 11px;
+    }
+    .card-two h1 {
+        color: #FFF;
+        font-family: Nectar;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+    }
+    .card-two .para {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+    .my-services {
+        height: 100%;
+        /* padding-top: 400px; */
+    }
+    .card-row {
+        bottom: 25px;
+    }
+    .card-three {
+        padding: 10px 2px;
+        border-radius: 10px;
+       
+    }
+    .card-three p {
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    #videoPlayer{
+        border-radius: 50px;
+    }
+    .card-three h5 {
+        font-size: 15px;
+    }
+    .my-services-card--text h2, .my-contact-card--text h2 {
+        color: #FFF;
+        font-family: Nectar;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .my-services-card--text .heading-sm , .my-contact-card--text .heading-sm{
+        margin-bottom: 3px;
+    }
+    .card-row{
+        /* flex-direction: column; */
+        /* width: 50%; */
+        gap: 10px;
+    }
+    .card-content h1 {
+        font-size: 28px;
+    }
+    .card-content p {
+        font-size: 13px;
+    }
+    .navbar-nav {
+        border-radius: 46px;
+        background: #222;
+        padding: 0px 19px;
+    }
+    .my-who-card__title {
+        color: #CB3161;
+        font-family: Poppins;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .para-three {
+        color: #CB3161;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .text-two {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        font-family: consolas;
+        color: #fff;
+        font-size: 13px;
+        animation: textRotation 8s linear infinite;
+    }
+    .logo {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: 58px;
+        left: 46px;
+        border-radius: 100vmax;
+        background-position: center;
+    }
+    .circle {
+        position: relative;
+        width: 171px;
+        height: 199px;
+        margin-top: 158px;
+        margin-left: 67px;
+        border-radius: 100vmax;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #circle {
+        height: 235px;
+    }
+    .custom-card {
+        border-radius: 85px;
+        background: url(../images/josh.png);
+        background-color: rgb(17, 12, 14);
+        padding: 200px 10px;
+        width: 353px;
+        /* margin: 20px; */
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .my-services-row__left--card {
+        border-radius: 50px;
+        background: #471D9F;
+    }
+    #draggable {
+        border-radius: 70px !important;
+        height: 170px !important;
+    }
+    .my-work-items {
+        margin-bottom: 8px;
+    }
+    .my-footer .logomark-container {
+        margin: 15px 0 20px 0;
+    }
+    
+    
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1080px){
+    .card h1 {
+        font-size: 18px;
+    }
+    .card-two h1 {
+        font-size: 20px;
+        line-height: 41px;
+    }
+    .card-two p {
+        color: #888;
+        font-family: Poppins;
+        font-size: 15px;
+        line-height: 29px;
+    }
+    .button-two {
+        padding: 10px 9px;
+        border: 0px;
+        color: #111;
+        font-family: Poppins;
+        font-size: 14px;
+    }
+    .card-three p {
+        font-size: 9px;
+        line-height: 18px;
+    }
+    .card-three h5 {
+       
+        font-size: 17px;
+    }
+    .card-three {
+        padding: 10px 14px;
+    }
+    .card {
+        border-radius: 75px;
+        background: #20B9FB;
+        padding: 55px 30px;
+    }
+    .card-two {
+        border-radius: 45px;
+        background: #222;
+        padding: 25px 26px;
+        /* height: 55%; */
+    }
+    .card-two .para {
+        font-size: 16px; 
+    }
+    .ser-img img {
+        height: 56%;
+        padding-top: 9px;
+    }
+    .my-services-card--text h2 {
+        color: #FFF;
+        font-family: Nectar;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+    }
+    .card-content h1 {
+        font-size: 25px;
+    }
+    .my-who-card__title {
+        font-size: 80px;
+    }
+    .para-three {
+        color: #CB3161;
+        font-family: Poppins;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    
+    .logo {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: 68px;
+        left: 90px;
+        border-radius: 100vmax;
+        background-position: center;
+    }
+    .circle {
+        margin-top: 163px;
+    }
+    #circle {
+        height: 230px;
+    }
+    .custom-card {
+        border-radius: 100px;
+        background: rgb(17, 12, 14);
+        padding: 231px 20px;
+        width: 345px;
+        margin: 20px;
+        background: url(../images/pamela-buenrostro-1Ko-iILtrPI-unsplash.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    #cont-one {
+        padding: 40px 20px;
+    }
+    .button img {
+        height: 50%;
+        padding-left: 356px;
+    }
+    .button {
+        border-radius: 200px;
+        background: #222;
+        padding: 20px 55px 20px 88px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        border: 0px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .card-row {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 76px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 75%;
+    }
+    #videoPlayer {
+       
+    border-radius: 55px;
+        height: 750px;
+        background: #000;
+    }
+}
+@media (min-device-width: 1080px) and (max-device-width: 1400px){
+    .custom-card {
+        padding: 200px 20px;
+        width: 311px;
+        margin: 20px;
+    }
+    .logo {
+        top: 65px;
+        left: 90px;
+    }
+    .circle {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        padding-top: 0px;
+        border-radius: 100vmax;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .para-three {
+        color: #CB3161;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 65px;
+    }
+    .my-services {
+        height: 100%;
+        margin-top: 500px;
+    }
+  
+}
+
+/* h1 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #06D85F;
+    margin: 80px 0;
+} */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+margin: 70px auto;
+padding: 20px;
+background: #fff;
+border-radius: 5px;
+width: 45%;
+position: relative;
+transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #06D85F;
+}
+.popup .close:hover {
+    color: #06D85F;
+}
+.popup .content {
+
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+    .box{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.5s; /* Add a fade transition */
+}
+.text {
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    animation: moveUpDown 3s infinite;
+}
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(80vh);
+    }
+}
+
+
+.page-content {
+    opacity: 1; /* Start with 0 opacity */
+    transition: opacity 2s; /* Add a smooth transition */
+}
+
+
+
+
+
+
+
+
+.modal-content{
+    background-color: #222;
+}
+
+
+.is-sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background: linear-gradient(180deg, #111 72.16%, rgba(17, 17, 17, 0.00) 95.17%) !important;
+}
+
+
+
+
+
+
+.services-circle-container, .my-contact-card .contact-circle-container{
+    
+    padding: 60px 30px 40px 0px;
+
+}
+
+
+
+.link-div{
+    border-radius: 200px;
+background: #222;
+padding: 15px 35px;
+}
